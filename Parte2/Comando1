@@ -1,0 +1,165 @@
+explainVersion: '1',
+  queryPlanner: {
+    namespace: 'Actors.Voice-actors',
+    parsedQuery: {
+      Edad: {
+        '$gte': 50
+      }
+    },
+    indexFilterSet: false,
+    queryHash: 'B01CD43E',
+    planCacheShapeHash: 'B01CD43E',
+    planCacheKey: '788C3D7E',
+    optimizationTimeMillis: 0,
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    prunedSimilarIndexes: false,
+    winningPlan: {
+      isCached: false,
+      stage: 'PROJECTION_SIMPLE',
+      transformBy: {
+        Nombre: 1,
+        Edad: 1,
+        Patrimonio: 1,
+        Nacionalidad: 1,
+        _id: 0
+      },
+      inputStage: {
+        stage: 'SORT',
+        sortPattern: {
+          Edad: 1
+        },
+        memLimit: 104857600,
+        limitAmount: 10,
+        type: 'simple',
+        inputStage: {
+          stage: 'COLLSCAN',
+          filter: {
+            Edad: {
+              '$gte': 50
+            }
+          },
+          direction: 'forward'
+        }
+      }
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 8,
+    executionTimeMillis: 1,
+    totalKeysExamined: 0,
+    totalDocsExamined: 20,
+    executionStages: {
+      isCached: false,
+      stage: 'PROJECTION_SIMPLE',
+      nReturned: 8,
+      executionTimeMillisEstimate: 0,
+      works: 30,
+      advanced: 8,
+      needTime: 21,
+      needYield: 0,
+      saveState: 0,
+      restoreState: 0,
+      isEOF: 1,
+      transformBy: {
+        Nombre: 1,
+        Edad: 1,
+        Patrimonio: 1,
+        Nacionalidad: 1,
+        _id: 0
+      },
+      inputStage: {
+        stage: 'SORT',
+        nReturned: 8,
+        executionTimeMillisEstimate: 0,
+        works: 30,
+        advanced: 8,
+        needTime: 21,
+        needYield: 0,
+        saveState: 0,
+        restoreState: 0,
+        isEOF: 1,
+        sortPattern: {
+          Edad: 1
+        },
+        memLimit: 104857600,
+        limitAmount: 10,
+        type: 'simple',
+        totalDataSizeSorted: 3643,
+        usedDisk: false,
+        spills: 0,
+        spilledDataStorageSize: 0,
+        inputStage: {
+          stage: 'COLLSCAN',
+          filter: {
+            Edad: {
+              '$gte': 50
+            }
+          },
+          nReturned: 8,
+          executionTimeMillisEstimate: 0,
+          works: 21,
+          advanced: 8,
+          needTime: 12,
+          needYield: 0,
+          saveState: 0,
+          restoreState: 0,
+          isEOF: 1,
+          direction: 'forward',
+          docsExamined: 20
+        }
+      }
+    }
+  },
+  queryShapeHash: 'E00AB58AB2A986393A05771E81791E27D3DC0D6BCEC515A982A8F4E83DC1AF78',
+  command: {
+    find: 'Voice-actors',
+    filter: {
+      Edad: {
+        '$gte': 50
+      }
+    },
+    sort: {
+      Edad: 1
+    },
+    projection: {
+      Nombre: 1,
+      Edad: 1,
+      Patrimonio: 1,
+      Nacionalidad: 1,
+      _id: 0
+    },
+    limit: 10,
+    '$db': 'Actors'
+  },
+  serverInfo: {
+    host: 'a11475c0a8be',
+    port: 30001,
+    version: '8.0.29',
+    gitVersion: '559d67c651f7393e62757234a0b25cb7a8622148'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600,
+    internalQueryFrameworkControl: 'trySbeRestricted',
+    internalQueryPlannerIgnoreIndexWithCollationForRegex: 1
+  },
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1788819330, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1788819330, i: 1 })
+}
