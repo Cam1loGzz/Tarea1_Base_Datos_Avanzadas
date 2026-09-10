@@ -1,0 +1,37 @@
+
+{
+  Nombre: 'Valeria Morales',
+  Nacionalidad: 'Chile',
+  Edad: 25,
+  Idiomas: [
+    'Espanol'
+  ]
+}
+{
+  Nombre: 'Camila Rojas',
+  Nacionalidad: 'Chile',
+  Edad: 26,
+  Idiomas: [
+    'Espanol',
+    'Ingles'
+  ]
+}
+{
+  Nombre: 'Maria Silva',
+  Nacionalidad: 'Chile',
+  Edad: 31,
+  Idiomas: [
+    'Espanol',
+    'Ingles',
+    'Frances'
+  ]
+}
+{
+  Nombre: 'Carlos Hernandez',
+  Nacionalidad: 'Chile',
+  Edad: 56,
+  Idiomas: [
+    'Espanol',
+    'Ingles'
+  ]
+}
