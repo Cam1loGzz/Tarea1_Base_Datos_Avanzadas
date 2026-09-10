@@ -1,0 +1,36 @@
+{
+  Nombre: 'Hiroshi Sato',
+  Nacionalidad: 'Japon',
+  Edad: 24,
+  Personajes: [
+    {
+      'Nombre del personaje': 'Shin',
+      Produccion: 'Neon Blade',
+      'Tipo de produccion': 'independiente',
+      Rol: 'principal',
+      'Cantidad de apariciones': 8,
+      Generos: [
+        'Accion',
+        'Cyberpunk'
+      ]
+    }
+  ]
+}
+{
+  Nombre: 'Camila Rojas',
+  Nacionalidad: 'Chile',
+  Edad: 26,
+  Personajes: [
+    {
+      'Nombre del personaje': 'Kira',
+      Produccion: 'Cyber Valkyrie',
+      'Tipo de produccion': 'independiente',
+      Rol: 'principal',
+      'Cantidad de apariciones': 12,
+      Generos: [
+        'Sci-Fi',
+        'Accion'
+      ]
+    }
+  ]
+}
