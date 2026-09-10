@@ -213,8 +213,8 @@
     '$db': 'Actors'
   },
   serverInfo: {
-    host: 'a11475c0a8be',
-    port: 30001,
+    host: '02afa0a37344',
+    port: 30002,
     version: '8.0.29',
     gitVersion: '559d67c651f7393e62757234a0b25cb7a8622148'
   },
@@ -232,11 +232,11 @@
   },
   ok: 1,
   '$clusterTime': {
-    clusterTime: Timestamp({ t: 1788819790, i: 1 }),
+    clusterTime: Timestamp({ t: 1789074481, i: 1 }),
     signature: {
       hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
       keyId: Long('0')
     }
   },
-  operationTime: Timestamp({ t: 1788819790, i: 1 })
+  operationTime: Timestamp({ t: 1789074481, i: 1 })
 }
