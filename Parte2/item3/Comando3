@@ -100,7 +100,7 @@
   executionStats: {
     executionSuccess: true,
     nReturned: 2,
-    executionTimeMillis: 0,
+    executionTimeMillis: 1,
     totalKeysExamined: 5,
     totalDocsExamined: 5,
     executionStages: {
@@ -235,7 +235,7 @@
     '$db': 'Actors'
   },
   serverInfo: {
-    host: '287ff89fd23c',
+    host: '02afa0a37344',
     port: 30002,
     version: '8.0.29',
     gitVersion: '559d67c651f7393e62757234a0b25cb7a8622148'
@@ -254,11 +254,11 @@
   },
   ok: 1,
   '$clusterTime': {
-    clusterTime: Timestamp({ t: 1789065595, i: 1 }),
+    clusterTime: Timestamp({ t: 1789075021, i: 1 }),
     signature: {
       hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
       keyId: Long('0')
     }
   },
-  operationTime: Timestamp({ t: 1789065595, i: 1 })
+  operationTime: Timestamp({ t: 1789075021, i: 1 })
 }
