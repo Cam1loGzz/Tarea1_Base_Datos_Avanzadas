@@ -5,7 +5,7 @@
     parsedQuery: {
       '$and': [
         {
-          Idioma: {
+          Idiomas: {
             '$eq': 'Espanol'
           }
         },
@@ -17,10 +17,10 @@
       ]
     },
     indexFilterSet: false,
-    queryHash: '8F664C90',
-    planCacheShapeHash: '8F664C90',
-    planCacheKey: '98925059',
-    optimizationTimeMillis: 4,
+    queryHash: '5090F661',
+    planCacheShapeHash: '5090F661',
+    planCacheKey: '4FED5F95',
+    optimizationTimeMillis: 0,
     maxIndexedOrSolutionsReached: false,
     maxIndexedAndSolutionsReached: false,
     maxScansToExplodeReached: false,
@@ -31,7 +31,7 @@
       transformBy: {
         Nombre: 1,
         Edad: 1,
-        Patrimonio: 1,
+        Idiomas: 1,
         Nacionalidad: 1,
         _id: 0
       },
@@ -46,7 +46,7 @@
         inputStage: {
           stage: 'FETCH',
           filter: {
-            Idioma: {
+            Idiomas: {
               '$eq': 'Espanol'
             }
           },
@@ -78,17 +78,17 @@
   },
   executionStats: {
     executionSuccess: true,
-    nReturned: 0,
-    executionTimeMillis: 14,
+    nReturned: 4,
+    executionTimeMillis: 1,
     totalKeysExamined: 4,
     totalDocsExamined: 4,
     executionStages: {
       isCached: false,
       stage: 'PROJECTION_SIMPLE',
-      nReturned: 0,
-      executionTimeMillisEstimate: 9,
-      works: 6,
-      advanced: 0,
+      nReturned: 4,
+      executionTimeMillisEstimate: 0,
+      works: 10,
+      advanced: 4,
       needTime: 5,
       needYield: 0,
       saveState: 0,
@@ -97,16 +97,16 @@
       transformBy: {
         Nombre: 1,
         Edad: 1,
-        Patrimonio: 1,
+        Idiomas: 1,
         Nacionalidad: 1,
         _id: 0
       },
       inputStage: {
         stage: 'SORT',
-        nReturned: 0,
-        executionTimeMillisEstimate: 9,
-        works: 6,
-        advanced: 0,
+        nReturned: 4,
+        executionTimeMillisEstimate: 0,
+        works: 10,
+        advanced: 4,
         needTime: 5,
         needYield: 0,
         saveState: 0,
@@ -118,22 +118,22 @@
         memLimit: 104857600,
         limitAmount: 10,
         type: 'simple',
-        totalDataSizeSorted: 0,
+        totalDataSizeSorted: 1917,
         usedDisk: false,
         spills: 0,
         spilledDataStorageSize: 0,
         inputStage: {
           stage: 'FETCH',
           filter: {
-            Idioma: {
+            Idiomas: {
               '$eq': 'Espanol'
             }
           },
-          nReturned: 0,
-          executionTimeMillisEstimate: 9,
+          nReturned: 4,
+          executionTimeMillisEstimate: 0,
           works: 5,
-          advanced: 0,
-          needTime: 4,
+          advanced: 4,
+          needTime: 0,
           needYield: 0,
           saveState: 0,
           restoreState: 0,
@@ -143,7 +143,7 @@
           inputStage: {
             stage: 'IXSCAN',
             nReturned: 4,
-            executionTimeMillisEstimate: 9,
+            executionTimeMillisEstimate: 0,
             works: 5,
             advanced: 4,
             needTime: 0,
@@ -178,7 +178,7 @@
       }
     }
   },
-  queryShapeHash: 'BD300E82FE51FA23E343ECDED243526344791CD29AFDB09B4649A6E40A17094E',
+  queryShapeHash: '333458303B16F8FCA3EBC51CDBCE8545492BF16C735AC4CE87BA7F3F4CFB3E76',
   command: {
     find: 'Voice-actors',
     filter: {
@@ -187,7 +187,7 @@
           Nacionalidad: 'Chile'
         },
         {
-          Idioma: {
+          Idiomas: {
             '$in': [
               'Espanol'
             ]
@@ -201,7 +201,7 @@
     projection: {
       Nombre: 1,
       Edad: 1,
-      Patrimonio: 1,
+      Idiomas: 1,
       Nacionalidad: 1,
       _id: 0
     },
@@ -209,7 +209,7 @@
     '$db': 'Actors'
   },
   serverInfo: {
-    host: '287ff89fd23c',
+    host: '02afa0a37344',
     port: 30002,
     version: '8.0.29',
     gitVersion: '559d67c651f7393e62757234a0b25cb7a8622148'
@@ -228,11 +228,11 @@
   },
   ok: 1,
   '$clusterTime': {
-    clusterTime: Timestamp({ t: 1789065335, i: 1 }),
+    clusterTime: Timestamp({ t: 1789074941, i: 6 }),
     signature: {
       hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
       keyId: Long('0')
     }
   },
-  operationTime: Timestamp({ t: 1789065335, i: 1 })
+  operationTime: Timestamp({ t: 1789074941, i: 6 })
 }
