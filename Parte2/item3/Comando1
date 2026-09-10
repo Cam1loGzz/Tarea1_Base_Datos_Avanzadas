@@ -60,14 +60,14 @@
   executionStats: {
     executionSuccess: true,
     nReturned: 8,
-    executionTimeMillis: 5,
+    executionTimeMillis: 0,
     totalKeysExamined: 8,
     totalDocsExamined: 8,
     executionStages: {
       isCached: false,
       stage: 'LIMIT',
       nReturned: 8,
-      executionTimeMillisEstimate: 4,
+      executionTimeMillisEstimate: 0,
       works: 9,
       advanced: 8,
       needTime: 0,
@@ -79,7 +79,7 @@
       inputStage: {
         stage: 'PROJECTION_SIMPLE',
         nReturned: 8,
-        executionTimeMillisEstimate: 4,
+        executionTimeMillisEstimate: 0,
         works: 9,
         advanced: 8,
         needTime: 0,
@@ -97,7 +97,7 @@
         inputStage: {
           stage: 'FETCH',
           nReturned: 8,
-          executionTimeMillisEstimate: 4,
+          executionTimeMillisEstimate: 0,
           works: 9,
           advanced: 8,
           needTime: 0,
@@ -110,7 +110,7 @@
           inputStage: {
             stage: 'IXSCAN',
             nReturned: 8,
-            executionTimeMillisEstimate: 4,
+            executionTimeMillisEstimate: 0,
             works: 9,
             advanced: 8,
             needTime: 0,
@@ -167,7 +167,7 @@
     '$db': 'Actors'
   },
   serverInfo: {
-    host: '287ff89fd23c',
+    host: '02afa0a37344',
     port: 30002,
     version: '8.0.29',
     gitVersion: '559d67c651f7393e62757234a0b25cb7a8622148'
@@ -186,11 +186,11 @@
   },
   ok: 1,
   '$clusterTime': {
-    clusterTime: Timestamp({ t: 1789065495, i: 1 }),
+    clusterTime: Timestamp({ t: 1789075101, i: 1 }),
     signature: {
       hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
       keyId: Long('0')
     }
   },
-  operationTime: Timestamp({ t: 1789065495, i: 1 })
+  operationTime: Timestamp({ t: 1789075101, i: 1 })
 }
