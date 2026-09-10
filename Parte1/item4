@@ -1,0 +1,60 @@
+{
+  Nombre: 'James Wilson',
+  Nacionalidad: 'Estados Unidos',
+  Edad: 54,
+  Patrimonio: 850000
+}
+{
+  Nombre: 'Yuki Tanaka',
+  Nacionalidad: 'Japon',
+  Edad: 41,
+  Patrimonio: 500000
+}
+{
+  Nombre: 'Mateo Rossi',
+  Nacionalidad: 'Italia',
+  Edad: 48,
+  Patrimonio: 340000
+}
+{
+  Nombre: 'Sofia Ruiz',
+  Nacionalidad: 'Mexico',
+  Edad: 58,
+  Patrimonio: 310000
+}
+{
+  Nombre: 'Lucia Fernandez',
+  Nacionalidad: 'Espana',
+  Edad: 51,
+  Patrimonio: 210000
+}
+{
+  Nombre: 'Carlos Hernandez',
+  Nacionalidad: 'Chile',
+  Edad: 56,
+  Patrimonio: 150000
+}
+{
+  Nombre: 'Claudia Diaz',
+  Nacionalidad: 'Colombia',
+  Edad: 38,
+  Patrimonio: 130000
+}
+{
+  Nombre: 'David Miller',
+  Nacionalidad: 'Estados Unidos',
+  Edad: 34,
+  Patrimonio: 110000
+}
+{
+  Nombre: 'Pedro Morales',
+  Nacionalidad: 'Argentina',
+  Edad: 46,
+  Patrimonio: 95000
+}
+{
+  Nombre: 'Ana Gomez',
+  Nacionalidad: 'Mexico',
+  Edad: 28,
+  Patrimonio: 80000
+}
