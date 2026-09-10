@@ -1,0 +1,37 @@
+{
+  _id: ObjectId('6aa313f42455822ce7175b40'),
+  Nombre: 'Carlos Hernandez',
+  Nacionalidad: 'Chile',
+  'Fecha de nacimiento': '1970-05-15',
+  Edad: 56,
+  Patrimonio: 150000,
+  Idiomas: [
+    'Espanol',
+    'Ingles'
+  ],
+  Personajes: [
+    {
+      'Nombre del personaje': 'Zoro',
+      Produccion: 'One Piece',
+      'Tipo de produccion': 'profesional',
+      Rol: 'principal',
+      'Cantidad de apariciones': 500,
+      Generos: [
+        'Accion',
+        'Aventura',
+        'Shonen'
+      ]
+    },
+    {
+      'Nombre del personaje': 'Kuro',
+      Produccion: 'Cyber Shadow',
+      'Tipo de produccion': 'independiente',
+      Rol: 'secundario',
+      'Cantidad de apariciones': 25,
+      Generos: [
+        'Accion',
+        'Cyberpunk'
+      ]
+    }
+  ]
+}
