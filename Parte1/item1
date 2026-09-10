@@ -1,0 +1,48 @@
+{
+  Nombre: 'Lucia Fernandez',
+  Nacionalidad: 'Espana',
+  Edad: 51,
+  Patrimonio: 210000
+}
+{
+  Nombre: 'James Wilson',
+  Nacionalidad: 'Estados Unidos',
+  Edad: 54,
+  Patrimonio: 850000
+}
+{
+  Nombre: 'Carlos Hernandez',
+  Nacionalidad: 'Chile',
+  Edad: 56,
+  Patrimonio: 150000
+}
+{
+  Nombre: 'Sofia Ruiz',
+  Nacionalidad: 'Mexico',
+  Edad: 58,
+  Patrimonio: 310000
+}
+{
+  Nombre: 'John Smith',
+  Nacionalidad: 'Estados Unidos',
+  Edad: 60,
+  Patrimonio: 1200000
+}
+{
+  Nombre: 'Hans Gruber',
+  Nacionalidad: 'Alemania',
+  Edad: 63,
+  Patrimonio: 940000
+}
+{
+  Nombre: 'Michael Brown',
+  Nacionalidad: 'Reino Unido',
+  Edad: 66,
+  Patrimonio: 1800000
+}
+{
+  Nombre: 'Kenji Sato',
+  Nacionalidad: 'Japon',
+  Edad: 71,
+  Patrimonio: 2500000
+}
