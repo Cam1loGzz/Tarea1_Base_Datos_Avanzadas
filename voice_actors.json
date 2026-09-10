@@ -1,0 +1,490 @@
+[
+    {
+        "Nombre": "Carlos Hernandez",
+        "Nacionalidad": "Chile",
+        "Fecha de nacimiento": "1970-05-15",
+        "Edad": 56,
+        "Patrimonio": 150000.0,
+        "Idiomas": [
+            "Espanol",
+            "Ingles"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Zoro",
+                "Produccion": "One Piece",
+                "Tipo de produccion": "profesional",
+                "Rol": "principal",
+                "Cantidad de apariciones": 500,
+                "Generos": [
+                    "Accion",
+                    "Aventura",
+                    "Shonen"
+                ]
+            },
+            {
+                "Nombre del personaje": "Kuro",
+                "Produccion": "Cyber Shadow",
+                "Tipo de produccion": "independiente",
+                "Rol": "secundario",
+                "Cantidad de apariciones": 25,
+                "Generos": [
+                    "Accion",
+                    "Cyberpunk"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Ana Gomez",
+        "Nacionalidad": "Mexico",
+        "Fecha de nacimiento": "1998-03-22",
+        "Edad": 28,
+        "Patrimonio": 80000.0,
+        "Idiomas": [
+            "Espanol"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Luna",
+                "Produccion": "Magical Girl Starlight",
+                "Tipo de produccion": "profesional",
+                "Rol": "principal",
+                "Cantidad de apariciones": 45,
+                "Generos": [
+                    "Fantasia",
+                    "Magia"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "John Smith",
+        "Nacionalidad": "Estados Unidos",
+        "Fecha de nacimiento": "1965-11-02",
+        "Edad": 60,
+        "Patrimonio": 1200000.0,
+        "Idiomas": [
+            "Ingles"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Commander Shepard",
+                "Produccion": "Mass Effect",
+                "Tipo de produccion": "profesional",
+                "Rol": "principal",
+                "Cantidad de apariciones": 120,
+                "Generos": [
+                    "Sci-Fi",
+                    "RPG",
+                    "Accion"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Maria Silva",
+        "Nacionalidad": "Chile",
+        "Fecha de nacimiento": "1995-07-19",
+        "Edad": 31,
+        "Patrimonio": 45000.0,
+        "Idiomas": [
+            "Espanol",
+            "Ingles",
+            "Frances"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Aria",
+                "Produccion": "Lost Echo",
+                "Tipo de produccion": "independiente",
+                "Rol": "principal",
+                "Cantidad de apariciones": 15,
+                "Generos": [
+                    "Aventura",
+                    "Misterio"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Kenji Sato",
+        "Nacionalidad": "Japon",
+        "Fecha de nacimiento": "1955-01-10",
+        "Edad": 71,
+        "Patrimonio": 2500000.0,
+        "Idiomas": [
+            "Japones",
+            "Ingles"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Vegeta",
+                "Produccion": "Dragon Ball",
+                "Tipo de produccion": "profesional",
+                "Rol": "principal",
+                "Cantidad de apariciones": 600,
+                "Generos": [
+                    "Accion",
+                    "Shonen",
+                    "Sci-Fi"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Laura Perez",
+        "Nacionalidad": "Espana",
+        "Fecha de nacimiento": "2000-12-05",
+        "Edad": 25,
+        "Patrimonio": 30000.0,
+        "Idiomas": [
+            "Espanol",
+            "Ingles"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Pixie",
+                "Produccion": "Indie Forest",
+                "Tipo de produccion": "independiente",
+                "Rol": "principal",
+                "Cantidad de apariciones": 10,
+                "Generos": [
+                    "Plataformas",
+                    "Aventura"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Pedro Morales",
+        "Nacionalidad": "Argentina",
+        "Fecha de nacimiento": "1980-09-14",
+        "Edad": 46,
+        "Patrimonio": 95000.0,
+        "Idiomas": [
+            "Espanol"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Ramon",
+                "Produccion": "Futbol Masters",
+                "Tipo de produccion": "profesional",
+                "Rol": "secundario",
+                "Cantidad de apariciones": 50,
+                "Generos": [
+                    "Deportes",
+                    "Comedia"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Sofia Ruiz",
+        "Nacionalidad": "Mexico",
+        "Fecha de nacimiento": "1968-04-30",
+        "Edad": 58,
+        "Patrimonio": 310000.0,
+        "Idiomas": [
+            "Espanol",
+            "Ingles"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Abuela Coco",
+                "Produccion": "Recuerdos",
+                "Tipo de produccion": "profesional",
+                "Rol": "secundario",
+                "Cantidad de apariciones": 30,
+                "Generos": [
+                    "Drama",
+                    "Familiar"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "David Miller",
+        "Nacionalidad": "Estados Unidos",
+        "Fecha de nacimiento": "1992-06-18",
+        "Edad": 34,
+        "Patrimonio": 110000.0,
+        "Idiomas": [
+            "Ingles"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Soldier X",
+                "Produccion": "Warzone Alpha",
+                "Tipo de produccion": "profesional",
+                "Rol": "extra",
+                "Cantidad de apariciones": 5,
+                "Generos": [
+                    "Accion",
+                    "Shooter"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Yuki Tanaka",
+        "Nacionalidad": "Japon",
+        "Fecha de nacimiento": "1985-08-25",
+        "Edad": 41,
+        "Patrimonio": 500000.0,
+        "Idiomas": [
+            "Japones"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Naruto Uzumaki",
+                "Produccion": "Naruto",
+                "Tipo de produccion": "profesional",
+                "Rol": "principal",
+                "Cantidad de apariciones": 720,
+                "Generos": [
+                    "Accion",
+                    "Shonen",
+                    "Artes Marciales"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Camila Rojas",
+        "Nacionalidad": "Chile",
+        "Fecha de nacimiento": "1999-11-11",
+        "Edad": 26,
+        "Patrimonio": 25000.0,
+        "Idiomas": [
+            "Espanol",
+            "Ingles"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Kira",
+                "Produccion": "Cyber Valkyrie",
+                "Tipo de produccion": "independiente",
+                "Rol": "principal",
+                "Cantidad de apariciones": 12,
+                "Generos": [
+                    "Sci-Fi",
+                    "Accion"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Michael Brown",
+        "Nacionalidad": "Reino Unido",
+        "Fecha de nacimiento": "1960-02-20",
+        "Edad": 66,
+        "Patrimonio": 1800000.0,
+        "Idiomas": [
+            "Ingles"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Sir Lancelot",
+                "Produccion": "Knights Realm",
+                "Tipo de produccion": "profesional",
+                "Rol": "secundario",
+                "Cantidad de apariciones": 40,
+                "Generos": [
+                    "Medieval",
+                    "Fantasia"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Lucia Fernandez",
+        "Nacionalidad": "Espana",
+        "Fecha de nacimiento": "1975-10-05",
+        "Edad": 51,
+        "Patrimonio": 210000.0,
+        "Idiomas": [
+            "Espanol"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Reina Isabel",
+                "Produccion": "Cronicas de Iberia",
+                "Tipo de produccion": "profesional",
+                "Rol": "principal",
+                "Cantidad de apariciones": 60,
+                "Generos": [
+                    "Historico",
+                    "Drama"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Hiroshi Sato",
+        "Nacionalidad": "Japon",
+        "Fecha de nacimiento": "2002-01-30",
+        "Edad": 24,
+        "Patrimonio": 40000.0,
+        "Idiomas": [
+            "Japones",
+            "Ingles"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Shin",
+                "Produccion": "Neon Blade",
+                "Tipo de produccion": "independiente",
+                "Rol": "principal",
+                "Cantidad de apariciones": 8,
+                "Generos": [
+                    "Accion",
+                    "Cyberpunk"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Claudia Diaz",
+        "Nacionalidad": "Colombia",
+        "Fecha de nacimiento": "1988-03-12",
+        "Edad": 38,
+        "Patrimonio": 130000.0,
+        "Idiomas": [
+            "Espanol",
+            "Portugues"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Esperanza",
+                "Produccion": "Cafetal",
+                "Tipo de produccion": "profesional",
+                "Rol": "principal",
+                "Cantidad de apariciones": 90,
+                "Generos": [
+                    "Drama",
+                    "Romance"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "James Wilson",
+        "Nacionalidad": "Estados Unidos",
+        "Fecha de nacimiento": "1972-07-07",
+        "Edad": 54,
+        "Patrimonio": 850000.0,
+        "Idiomas": [
+            "Ingles"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Agent 47 Clone",
+                "Produccion": "Stealth Protocol",
+                "Tipo de produccion": "profesional",
+                "Rol": "secundario",
+                "Cantidad de apariciones": 35,
+                "Generos": [
+                    "Suspenso",
+                    "Accion"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Valeria Morales",
+        "Nacionalidad": "Chile",
+        "Fecha de nacimiento": "2001-05-20",
+        "Edad": 25,
+        "Patrimonio": 20000.0,
+        "Idiomas": [
+            "Espanol"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Chispa",
+                "Produccion": "Andes Adventure",
+                "Tipo de produccion": "independiente",
+                "Rol": "principal",
+                "Cantidad de apariciones": 14,
+                "Generos": [
+                    "Aventura",
+                    "Plataformas"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Hans Gruber",
+        "Nacionalidad": "Alemania",
+        "Fecha de nacimiento": "1963-09-09",
+        "Edad": 63,
+        "Patrimonio": 940000.0,
+        "Idiomas": [
+            "Aleman",
+            "Ingles"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "The Mastermind",
+                "Produccion": "Berlin Underworld",
+                "Tipo de produccion": "profesional",
+                "Rol": "principal",
+                "Cantidad de apariciones": 45,
+                "Generos": [
+                    "Suspenso",
+                    "Crimen"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Fatima Al-Fassi",
+        "Nacionalidad": "Marruecos",
+        "Fecha de nacimiento": "1990-12-12",
+        "Edad": 35,
+        "Patrimonio": 75000.0,
+        "Idiomas": [
+            "Arabe",
+            "Frances",
+            "Ingles"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Yasmin",
+                "Produccion": "Desert Tales",
+                "Tipo de produccion": "independiente",
+                "Rol": "secundario",
+                "Cantidad de apariciones": 20,
+                "Generos": [
+                    "Fantasia",
+                    "Aventura"
+                ]
+            }
+        ]
+    },
+    {
+        "Nombre": "Mateo Rossi",
+        "Nacionalidad": "Italia",
+        "Fecha de nacimiento": "1978-04-04",
+        "Edad": 48,
+        "Patrimonio": 340000.0,
+        "Idiomas": [
+            "Italiano",
+            "Ingles"
+        ],
+        "Personajes": [
+            {
+                "Nombre del personaje": "Mario Rossi",
+                "Produccion": "Venice Mystery",
+                "Tipo de produccion": "profesional",
+                "Rol": "principal",
+                "Cantidad de apariciones": 75,
+                "Generos": [
+                    "Misterio",
+                    "Drama"
+                ]
+            }
+        ]
+    }
+]
